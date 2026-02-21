@@ -1,0 +1,101 @@
+#nome = "Geovana"
+#idade =20
+#curso_superior = "SI"
+
+#print ("Meu nome é: " + nome + " \n Curso: " + curso_superior +"\n Tenho:" + str(idade) + ' anos')
+
+#Localizar
+#print(nome[6])
+
+#arredondamento
+#print (round(2.3))
+
+
+#nome1= input('digite seu nome: ')
+#idade1 = input('digite sua idade: ')
+
+#print ('olá ' + nome1 + ' \n você tem: ' + str(idade1) + ' anos')
+
+
+#-------------calculadora---------------------------------------------------------------
+
+
+#num1= input('Digite o primeiro número: ')
+#num2= input('Digite o segundo número: ')
+#resultado = float(num1) + float(num2)
+
+#print('O resultado de '+ str (num1)+ ' + '+ str(num2) + ' é igual á: ' + str(resultado))
+
+#--------------------------
+#Grupo = ['Nicolas', 'Geovana', 'Ana Julia', 'Eduardo', 'Carla', 'Roberto']
+
+#Grupo[3] = 'Ana Paula'
+#print(Grupo)
+#print(Grupo[1])
+
+#---------------------------------
+
+#--------junta listas--------
+
+#numeros = [1,2,3,4,5,6,7,8,9,10]
+#amigos = ['Nicolas', 'Geovana','Carla', 'Ana Julia', 'Eduardo', 'Carla', 'Roberto']
+
+#amigos.extend(numeros)
+#print(amigos)
+
+
+#------inserir no final da lista--------
+
+#amigos.append('Ana Paula')
+#print(amigos)
+
+#------inserir em determinado lugar--------
+
+#amigos.insert(2, 'Rafaela')
+#print(amigos)
+
+#----------remover ----------
+
+#amigos.remove('Eduardo')
+#print(amigos)
+
+#--------remover por localização----------
+
+#amigos.pop(0)
+#print(amigos)
+
+#----localizar na lista a posição---------
+#print(amigos)
+#print(amigos.index('Carla'))
+
+#-------quantidade de itens iguais ----------
+
+#print(amigos.count('Carla'))
+
+#------organizar---------
+
+#amigos.sort()
+#numeros.sort()
+
+#print(numeros)
+#print(amigos)
+
+
+#-------if statements--------
+
+#acordei_antes_9 = True
+#fome = False
+
+#if acordei_antes_9 and fome:
+# print('hora de fazer o café')
+#elif acordei_antes_9 and not (fome):
+    #print('faça uma corrida')
+#else:
+    #print('hora de fazer o almoço')
+    
+#-----------------------------------------------------
+#var1 = 1
+#var2 = 2
+#var3 = '3'
+
+#print(int(var1) + int(var2) + int(var3))
